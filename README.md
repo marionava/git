@@ -1,7 +1,11 @@
-git
-===
-
-Guía de GIT desarrollada por Comunidad Mejorando.la
+![Mejorandola](http://miguelnieva.com/img/mejorandola-grande.png)
 
 
-Estoy en el nuevo branch
+## Comunidad Mejorando.la
+
+<ul>
+<br />
+<br />
+<ul>
+<li>Una guía de GIT</li>
+
