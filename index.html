@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -17,13 +17,14 @@
   <meta name="robots" content="all">
 
 <!-- Mobile Specific Metas
- ================================================== --> 
+ ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 <!-- CSS
   ================================================== -->
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/syntax-highlight.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -117,7 +118,7 @@ Bienvenido. Esta guía es una propuesta colaborativa de Comunidad Mejorando.la.
 <p>Una vez instalado, debemos de configurar GIT, con el fin de posteriormente vincularlo con GitHub, además es nuestra firma de autor a todos los movimientos que hagamos.</p>
 <pre>
   <code>$git config --global user.name "Miguel Nieva"
-  $git config --global user.mail "miguelnieva@conexionew.com"
+$git config --global user.mail "miguelnieva@conexionew.com"
 </code></pre>
 <p>El comando "config" es para hacer cambios dentro del archivo ".gitconfig", el cual guarda TODA tu información y configuración de GIT.
 </p>
@@ -188,7 +189,7 @@ Bienvenido. Esta guía es una propuesta colaborativa de Comunidad Mejorando.la.
 <p>Para comprobar que nuestra llave está instalada y tenemos la vinculación de Github con nuestra área local, tecleamos en la consola:</p>
 <pre>
   <code>ssh -T git@github.com
-  The authenticity of host 'github.com (207.97.227.239)' can't be established.
+  The authenticity of host 'github.com (207.97.227.239)' can`t be established.
   RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
   Are you sure you want to continue connecting (yes/no)?</code>
 </pre>
@@ -204,19 +205,19 @@ Bienvenido. Esta guía es una propuesta colaborativa de Comunidad Mejorando.la.
 <p>Después, crearemos una carpeta dentro de nuestro disco duro y le pondremos el nombre de "expogit".</p>
 <p>Iremos a la consola y teclearemos:</p>
 <pre>
-  <code>$cd ~/expogit 
+  <code>$cd ~/expogit
       #Donde hayas colocado la carpeta</code>
-  $git init
+  <code>$git init
       # Es un comando que significa iniciar GIT en este proyecto,
-       el cual empezará a rastrear todos los movimientos y cambios que hagas.
-  $git remote add origin git@github.com:MiguelNieva/expogit.git
+      # el cual empezará a rastrear todos los movimientos y cambios que hagas.</code>
+  <code>$git remote add origin git@github.com:MiguelNieva/expogit.git
       # Creamos el enlace remoto del repositorio de Github con el
-      repositorio en local.
-  $git pull
+      # repositorio en local.</code>
+  <code>$git pull
       # Traemos toda la información que se encuentra en el repositorio,
-      incluyendo todas las ramas, si necesitas traer una rama específica
-      puedes agregar "origin master" ó por ejemplo "origin gh-pages"
-      si hay una página para ello.
+      # incluyendo todas las ramas, si necesitas traer una rama específica
+      # puedes agregar "origin master" ó por ejemplo "origin gh-pages"
+      # si hay una página para ello.</code>
 </pre>
 <p>Con esto, ya tenemos en nuestra carpeta y en un nuestro perfil de Github, una copia completa del repositorio del proyecto.</p>
 <h3>Hacer cambios y proponerlos al proyecto principal</h3>
@@ -237,7 +238,7 @@ Bienvenido. Esta guía es una propuesta colaborativa de Comunidad Mejorando.la.
 </p>
 <p>
 Antes de subirlos al repositorio, se te pide que los pongas
-en un área llamada "stage", que significa estacionarlos para 
+en un área llamada "stage", que significa estacionarlos para
 posteriormente enviarlos a tu repositorio en LOCAL a través de
 un registro de cambios llamados "commits". Después, estos commits son
 los que enviaremos finalmente al repositorio en GITHUB.</p>
@@ -293,6 +294,12 @@ repositorio principal o simplemente rechazar tus cambios.</p>
       </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+
+  <!-- JS
+  ================================================== -->
+  <!-- Bash - Syntax Highlight for <pre> & <code> tags -->
+  <script src="javascripts/highlight.pack.js"></script>
+  <!-- Custom JS -->
+  <script src="javascripts/main.js"></script>
   </body>
 </html>
