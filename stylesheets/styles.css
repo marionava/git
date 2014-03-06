@@ -132,10 +132,13 @@ div.bloque
 
 h3
 {
- text-transform: uppercase; 
-    font-size: 13px; line-height: 32px; border-bottom: 1px #eee solid; color: #bbb;
-    margin-bottom: 2.5em;
-    padding-bottom: .5em; 
+text-transform: uppercase;
+font-size: 13px;
+line-height: 32px;
+border-bottom: 1px #eee solid;
+color: #FFF7F7;
+margin-bottom: 2.5em;
+padding-bottom: .5em;
 }
 
 div.bloque p
