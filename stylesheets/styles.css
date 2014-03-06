@@ -10,7 +10,8 @@ background-size: cover;
 display: inline-block;
 vertical-align: top;
 position: absolute;
-border-bottom-right-radius: 5px;
+bottom: 0;
+top: 0;
 }
 
 section.sidebar_information
@@ -91,7 +92,7 @@ div.nombre p
 
 ul
 {
-   margin: 5% 0 0% 0%;
+   margin: 8% 0 0% 0%;
 }
 
 ul li
@@ -114,7 +115,6 @@ padding: .3em 1em .3em;
 text-decoration: none;
 color: white;
 font-size: 13px;
-border-radius: 4px;
 }
 
 div.layout-principal
