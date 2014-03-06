@@ -4,7 +4,7 @@ body
 }
 header.sidebar
 {
-background-color: #2F2927;
+background-color: #FFFFFF;
 width: 30%;
 background-size: cover;
 display: inline-block;
@@ -49,14 +49,15 @@ margin: 0;
 padding: 5px 0 .3em;
 line-height: 32px;
 text-align: center;
+color: black;
 }
 
 div.comunidad-autoria
 {
   border-bottom: solid 1px white;
-    background: white;
-    border-top: solid 1px white;
-    padding: 3% 0;
+background: black;
+border-top: solid 1px white;
+padding: 3% 0;
 }
 
 div.logo
