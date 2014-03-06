@@ -1,6 +1,6 @@
 body
 {
- background: rgb(252, 252, 252); 
+ background: rgb(22, 21, 20);
 }
 header.sidebar
 {
@@ -88,7 +88,7 @@ display: inline-block;
 
 div.nombre p
 {
-  color: rgb(130, 124, 124);
+  color: rgb(255, 255, 255)
 }
 
 ul
